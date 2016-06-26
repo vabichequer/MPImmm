@@ -1,0 +1,17 @@
+#!/bin/sh
+#PBS -N MPIMMM 
+#PBS -m abe
+#PBS -j oe
+#PBS -k n 
+#PBS -l nodes=1:ithaca:ppn=1,walltime=1:00:00
+#PBS -V
+# 
+setenv OMPI_MCA_btl self,tcp
+cat $PBS_NODEFILE
+cd /home/sangalli_va/Desktop/mpimmm/cpp
+n=`wc -l < $PBS_NODEFILE`
+n=`expr $n / 2`
+echo n
+#mpirun -np $n --hostfile $PBS_NODEFILE --map-by ppr:1:node mpimmm
+mpirun --prefix /usr/lib64/openmpi  -np $n --hostfile $PBS_NODEFILE --map-by ppr:1:node mpimmm
+

@@ -1,0 +1,24 @@
+-bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
+-bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/usr/bin/modulecmd bash $*`'
+-bash: error importing function definition for `BASH_FUNC_module'
+/var/spool/torque/mom_priv/jobs/10805.zeus.cs.mercer.edu.SC: line 9: setenv: command not found
+csc204com12
+csc204com11
+csc204com10
+csc204com07
+csc204com06
+csc204com05
+csc204com03
+n
+ Sending A and B to process            1
+ Complete!
+ Sending A and B to process            2
+ Complete!
+ Worker            1  sending to Master
+ Worker            2  sending to Master
+ Worker            1  finished sending
+ Worker            2  finished sending
+ Dimension:         5000  Trace:    4999.9999999999063       in    303.92289090156555       seconds
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 5389 on node csc204com10 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

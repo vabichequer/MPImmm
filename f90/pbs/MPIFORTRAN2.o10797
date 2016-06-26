@@ -1,0 +1,8 @@
+-bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
+-bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/usr/bin/modulecmd bash $*`'
+-bash: error importing function definition for `BASH_FUNC_module'
+/var/spool/torque/mom_priv/jobs/10797.zeus.cs.mercer.edu.SC: line 9: setenv: command not found
+csc204com19
+csc204com18
+n
+ Dimension:         5000  Trace:    4999.9999999999063       in    1260.2503261566162       seconds

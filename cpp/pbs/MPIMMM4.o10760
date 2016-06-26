@@ -1,0 +1,13 @@
+-bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
+-bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/usr/bin/modulecmd bash $*`'
+-bash: error importing function definition for `BASH_FUNC_module'
+/var/spool/torque/mom_priv/jobs/10760.zeus.cs.mercer.edu.SC: line 9: setenv: command not found
+csc204com19
+csc204com18
+csc204com17
+csc204com16
+n
+Sending A and B to process 1....  Complete!
+Worker 1 sending to Master
+Worker 1 finished sending
+DIMENSION : 5000   TRACE 4999.9999999999063    in   168.137055 seconds

@@ -1,0 +1,66 @@
+-bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
+-bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/usr/bin/modulecmd bash $*`'
+-bash: error importing function definition for `BASH_FUNC_module'
+/var/spool/torque/mom_priv/jobs/10818.zeus.cs.mercer.edu.SC: line 9: setenv: command not found
+csc204com21
+csc204com20
+csc204com19
+csc204com18
+csc204com17
+csc204com16
+csc204com15
+csc204com14
+csc204com13
+csc204com12
+csc204com11
+csc204com10
+csc204com08
+csc204com07
+csc204com06
+csc204com05
+csc204com03
+csc204com02
+csc204com01
+csc204com09
+n
+ Sending A and B to process            1
+ Complete!
+ Sending A and B to process            2
+ Complete!
+ Sending A and B to process            3
+ Complete!
+ Sending A and B to process            4
+ Complete!
+ Sending A and B to process            5
+ Complete!
+ Sending A and B to process            6
+ Complete!
+ Sending A and B to process            7
+ Complete!
+ Sending A and B to process            8
+ Complete!
+ Sending A and B to process            9
+ Complete!
+ Worker            2  sending to Master
+ Worker            3  sending to Master
+ Worker            4  sending to Master
+ Worker            5  sending to Master
+ Worker            6  sending to Master
+ Worker            7  sending to Master
+ Worker            8  sending to Master
+ Worker            9  sending to Master
+ Worker            1  sending to Master
+ Worker            1  finished sending
+ Worker            2  finished sending
+ Worker            3  finished sending
+ Worker            4  finished sending
+ Worker            5  finished sending
+ Worker            6  finished sending
+ Worker            7  finished sending
+ Worker            8  finished sending
+ Worker            9  finished sending
+ Dimension:         5000  Trace:    4999.9999999999063       in    53.945219039916992       seconds
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 6859 on node csc204com19 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+3 total processes killed (some possibly by mpirun during cleanup)
